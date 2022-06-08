@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cal.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="case">
+    <p>COSINO</p> <b> </b> <b> </b><b> </b><b> </b>
+    <input type="text" id="value1">
+    <input type="text" id="value2">
+    <div id="output"> </div>
+    <button id="add" onclick="adding()"> + </button>
+    <button id="sub" onclick="subing()"> - </button>
+    <button id="mult" onclick="multing()"> * </button>
+    <button id="divi" onclick="divide()"> / </button>
+    <button id="rem" onclick="modi()"> % </button>
+    <button id="equal" onclick="printval()"> == </button>
+    <button id="pow" onclick="power()"> POW </button>
+    <button id="sqrt" onclick="sqrt()"> SQRT </button>
+    <button id="clear1" onclick="clean1()" >clear first</button>
+    <button id="clear2" onclick="clean2()" >clear second</button>
+    <button id="clearall" onclick="cleanall()">clear all</button>
+    <script src="cal.js"></script>
+    </div>
+</body>
+</html>
