@@ -65,64 +65,64 @@ class Cal
 function adding()
 {
     let a,b,sum;
-    a = parseInt(number1.value);
-    b = parseInt(number2.value);
+    a = parseFloat(number1.value);
+    b = parseFloat(number2.value);
     sum = new Cal(a,b);
     document.getElementById("output").innerHTML = sum.add(a,b);
 }
 function subing()
 {
     let a,b,sum;
-    a = parseInt(number1.value);
-    b = parseInt(number2.value);
+    a = parseFloat(number1.value);
+    b = parseFloat(number2.value);
     sum = new Cal(a,b);
     document.getElementById("output").innerHTML = sum.minus(a,b);    
 }
 function multing()
 {
     let a,b,sum;
-    a = parseInt(number1.value);
-    b = parseInt(number2.value);
+    a = parseFloat(number1.value);
+    b = parseFloat(number2.value);
     sum = new Cal(a,b);
     document.getElementById("output").innerHTML = sum.multi(a,b);
 }
 function divide()
 {
     let a,b,sum;
-    a = parseInt(number1.value);
-    b = parseInt(number2.value);
+    a = parseFloat(number1.value);
+    b = parseFloat(number2.value);
     sum = new Cal(a,b);
     document.getElementById("output").innerHTML = sum.divi(a,b);
 }
 function printval()
 {
     let a,b,sum;
-    a = parseInt(number1.value);
-    b = parseInt(number2.value);
+    a = parseFloat(number1.value);
+    b = parseFloat(number2.value);
     sum = new Cal(a,b);
     document.getElementById("output").innerHTML = sum.equals(a,b);    
 }
 function modi()
 {
     let a,b,sum;
-    a = parseInt(number1.value);
-    b = parseInt(number2.value);
+    a = parseFloat(number1.value);
+    b = parseFloat(number2.value);
     sum = new Cal(a,b);
     document.getElementById("output").innerHTML = sum.mod(a,b);
 }
 function power()
 {
     let a,b,sum;
-    a = parseInt(number1.value);
-    b = parseInt(number2.value);
+    a = parseFloat(number1.value);
+    b = parseFloat(number2.value);
     sum = new Cal(a,b);
     document.getElementById("output").innerHTML = sum.pow(a,b);
 }
 function sqrt()
 {
     let a,b,sum;
-    a = parseInt(number1.value);
-    b = parseInt(number2.value);
+    a = parseFloat(number1.value);
+    b = parseFloat(number2.value);
     sum = new Cal(a,b);
     document.getElementById("output").innerHTML = sum.square(a,b);    
 }
