@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: repeating-linear-gradient(0deg, rgb(65, 31, 0), rgb(65, 31, 0) 14vh, rgba(0, 0, 0, 0.8) 14vh, black 15vh);    
+    background: repeating-linear-gradient(0deg, rgb(65, 31, 0), rgb(65, 31, 0) 14vh, rgba(0, 0, 0, 0.875) 14vh, black 15vh);    
     height: 100vh;
     display: flex;
     align-items: center;
@@ -90,5 +90,6 @@ button{
 @media only screen and (max-width:768px){
     .calculator{
         width: 70vw;
+        box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.6);
     }
 }
